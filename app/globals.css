@@ -29,12 +29,39 @@ body {
   color: #ffff;
 }
 
+.zinc-text {
+  color: #012c3f;
+}
 
-.home-hero-title{
+.yellow-text {
+  color: #f39c12;
+}
+
+.yellow-bg {
+  background: #f39c12;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.home-hero-title {
   display: inline-block;
   border: 20px solid #ffff;
   padding: 10px 20px;
   font-size: 92px;
   border-radius: 8px;
   font-weight: 900;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #012c3f;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 28px;
 }
