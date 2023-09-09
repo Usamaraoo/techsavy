@@ -5,7 +5,7 @@ import { TechSavy } from '@/utils/data';
 
 const Navbar = () => {
     return (
-        <div className='zinc-bg'>
+        <nav className='zinc-bg py-5'>
             <div className=' container mx-auto flex justify-between items-center'>
                 <Image
                     src={logo}
@@ -17,7 +17,7 @@ const Navbar = () => {
                     <RxHamburgerMenu size={25} className='text-white cursor-pointer' />
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 
