@@ -2,7 +2,7 @@ import Image from 'next/image'
 import seoIcon from '../../public/assets/service-icons/SEO_Icon.webp'
 import svg from '../../public/u.svg'
 import { BiRightArrowAlt } from 'react-icons/bi'
-import YellowDot from '../yellowDot'
+import YellowDot from '../YellowDot'
 
 const Services = () => {
     return (
