@@ -7,9 +7,9 @@ import { TechSavy } from '@/utils/data';
 
 const Footer = () => {
     return (
-        <footer className='zinc-bg py-20 px-32'>
+        <footer className='zinc-bg py-10 px-32'>
             <div className='container mx-auto flex justify-between'>
-                <div className='flex flex-col justify-between h-full gap-6'>
+                <div className='flex flex-col justify-between h-full gap-2'>
                     <Image
                         src={logo}
                         width={110}
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className='text-lg flex flex-col justify-between h-full gap-6'>
+                    <div className='text-lg flex flex-col justify-between h-full '>
                         <Link href='/'> About</Link>
                         <Link href='/'> Our Model</Link>
                         <Link href='/'> Our Crafts</Link>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <div className=' text-lg flex flex-col justify-between h-full gap-6'>
+                    <div className=' text-lg flex flex-col justify-between h-full '>
                         <Link href='/'> Insights</Link>
                         <Link href='/'> Join us</Link>
                         <Link href='/'> Contact us</Link>
@@ -41,6 +41,15 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mt-10 text-xs flex  '>
+                <Link href='/' >&copy; TechSavy Group 2023</Link>
+                <p className='mx-6'>|</p>
+                <Link href='/' > Privacy Notice</Link>
+                <p className='mx-6'>|</p>
+                <Link href='/' > Cookie Settings</Link>
+                <p className='mx-6'>|</p>
+                <Link href='/' > Careers</Link>
             </div>
         </footer>
     )

@@ -46,18 +46,18 @@ export default function Home() {
       <section className='section text-zinc py-24'>
         <div className='container mx-auto text-center '>
           <h1 className='text-4xl font-[600] zinc-text'>Performance marketing at a global scale<YellowDot /> </h1>
-          <div className='flex justify-center my-20 gap-14'>
-            <div>
+          <div className='flex justify-center mb-20 mt-24 gap-20'>
+            <div >
               <h1 className='text-8xl font-[600] grad-text'>68</h1>
-              <p className='zinc-text text-xl'>Offices in 48 countries</p>
+              <p className='zinc-text text-xl mt-5'>Offices in 48 countries</p>
             </div>
             <div>
               <h1 className='text-8xl font-[600] grad-text'>3k</h1>
-              <p className='zinc-text text-xl'>Digital marketing experts</p>
+              <p className='zinc-text text-xl mt-5'>Digital marketing experts</p>
             </div>
             <div>
               <h1 className='text-8xl font-[600] grad-text'>$3bn</h1>
-              <p className='zinc-text text-xl'>Digital spend</p>
+              <p className='zinc-text text-xl mt-5'>Digital spend</p>
             </div>
           </div>
         </div>
