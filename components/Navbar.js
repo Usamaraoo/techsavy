@@ -8,18 +8,20 @@ import { TechSavy } from '@/utils/data';
 import Link from 'next/link';
 import { AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react';
-import {HiMenuAlt3} from 'react-icons/hi'
+import { HiMenuAlt3 } from 'react-icons/hi'
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
         <nav className='zinc-bg overflow-hidden  '>
             <div className=' container px-8 md:px-0 mx-auto flex justify-between items-center'>
-                <Image
-                    src={logo}
-                    width={130}
-                    height={50}
-                    alt={TechSavy}
-                />
+                <Link href='/'>
+                    <Image
+                        src={logo}
+                        width={130}
+                        height={50}
+                        alt={TechSavy}
+                    />
+                </Link>
                 <div>
                     <HiMenuAlt3 onClick={() => setOpen(!open)} size={30} className='text-white cursor-pointer transition-all duration-1000 hover:-skew-y-12 hover:scale-125' />
                 </div>
@@ -32,13 +34,13 @@ const Navbar = () => {
                 <div className='text-xl flex mt-24 flex-col gap-6'>
                     <Link href={'/'} className={` nav-link  `}>Home</Link>
                     <Link href={'/'} className={` nav-link  `}>Our Model</Link>
-                    <Link href={'/'}  className={` nav-link  `}>Our Crafs</Link>
-                    <Link href={'/'} className={` nav-link  `}>About Us</Link>
+                    <Link href={'/'} className={` nav-link  `}>Our Crafs</Link>
+                    <Link href={'/about-us'} className={` nav-link  `}>About Us</Link>
                     <Link href={'/'} className='nav-link  transition-all duration-700 '>Careers</Link>
 
 
                     <div>
-                        <Link href={'/'} className='nav-link '>Contact Us</Link>
+                        <Link href={'/contact-us'} className='nav-link '>Contact Us</Link>
                         <div className='flex justify-start gap-4 mt-4 ml-6'>
                             <Link href='/'> <RiLinkedinFill size={16} /> </Link>
                             <Link href='/'> <BsInstagram size={16} /> </Link>
@@ -46,7 +48,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-              
+
                 {/* top right */}
                 {/* <Image className='absolute -top-5 right-3' src={logo} width={100}
                     height={30}
