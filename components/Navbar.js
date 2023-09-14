@@ -2,8 +2,7 @@
 import { RiLinkedinFill, RiTwitterXFill } from 'react-icons/ri'
 import { BsInstagram } from 'react-icons/bs'
 import Image from 'next/image'
-import logo from '../public/techsavy-logo.png'
-import { RxHamburgerMenu } from 'react-icons/rx';
+import logo from '../public/techsavy-logo-white.png'
 import { TechSavy } from '@/utils/data';
 import Link from 'next/link';
 import { AiOutlineClose } from 'react-icons/ai'
@@ -12,13 +11,13 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='zinc-bg overflow-hidden  '>
+        <nav className='zinc-bg overflow-hidden py-6  '>
             <div className=' container px-8 md:px-0 mx-auto flex justify-between items-center'>
                 <Link href='/'>
                     <Image
                         src={logo}
-                        width={130}
-                        height={50}
+                        width={120}
+                        height={40}
                         alt={TechSavy}
                     />
                 </Link>
@@ -32,11 +31,11 @@ const Navbar = () => {
                 <AiOutlineClose onClick={() => setOpen(!open)} className='my-6 cursor-pointer' />
 
                 <div className='text-xl flex mt-24 flex-col gap-6'>
-                    <Link href={'/'} className={` nav-link  `}>Home</Link>
-                    <Link href={'/'} className={` nav-link  `}>Our Model</Link>
-                    <Link href={'/'} className={` nav-link  `}>Our Crafs</Link>
-                    <Link href={'/about-us'} className={` nav-link  `}>About Us</Link>
-                    <Link href={'/'} className='nav-link  transition-all duration-700 '>Careers</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/'} className={` nav-link  `}>Home</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/'} className={` nav-link  `}>Our Model</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/our-crafts'} className={` nav-link  `}>Our Crafs</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/about-us'} className={` nav-link  `}>About Us</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/'} className='nav-link  transition-all duration-700 '>Careers</Link>
 
 
                     <div>

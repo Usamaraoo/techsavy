@@ -1,4 +1,4 @@
-import logo from '../public/techsavy-logo.png'
+import logo from '../public/techsavy-logo-white.png'
 import Image from 'next/image'
 import Link from 'next/link';
 import { RiLinkedinFill, RiTwitterXFill } from 'react-icons/ri'
@@ -12,10 +12,10 @@ const Footer = () => {
             <Scrolln width='100%'>
 
                 <div className='container mx-auto flex flex-col md:flex-row justify-between md:gap-10 gap-0'>
-                    <div className='flex flex-col  justify-between h-full gap-2'>
+                    <div className='flex flex-col  justify-between h-full gap-7'>
                         <Image
                             src={logo}
-                            width={110}
+                            width={100}
                             height={50}
                             alt={TechSavy}
                         />
@@ -28,10 +28,10 @@ const Footer = () => {
                         <hr />
                     </div>
                     <div>
-                        <div className='text-lg flex flex-col  justify-between h-full '>
-                            <Link href='/'> About</Link>
+                        <div className='text-lg flex flex-col  gap-3 justify-between h-full '>
+                            <Link  href='/'> About</Link>
                             <Link href='/'> Our Model</Link>
-                            <Link href='/'> Our Crafts</Link>
+                            <Link href='/our-crafts'> Our Crafts</Link>
                             <Link href='/'> Techsavy commerce</Link>
                         </div>
                     </div>
@@ -39,14 +39,14 @@ const Footer = () => {
                         <hr />
                     </div>
                     <div>
-                        <div className=' text-lg flex flex-col justify-between h-full '>
+                        <div className=' text-lg flex  flex-col gap-3 justify-between h-full '>
                             <Link href='/'> Insights</Link>
                             <Link href='/about-us'> About us</Link>
                             <Link href='/contact-us'> Contact us</Link>
-                            <div className='flex md:justify-between gap-5 md:gap-0'>
-                                <Link href='/'> <RiLinkedinFill /> </Link>
-                                <Link href='/'> <BsInstagram /> </Link>
-                                <Link href='/'> <RiTwitterXFill /> </Link>
+                            <div className='flex justify-start items-center  md:justify-between lg:gap-3 lg:justify-start ml-1 gap-5 md:gap-3'>
+                                <Link href='/'> <RiLinkedinFill size={16} /> </Link>
+                                <Link href='/'> <BsInstagram size={13}  /> </Link>
+                                <Link href='/'> <RiTwitterXFill  size={13} /> </Link>
                             </div>
                         </div>
                     </div>
