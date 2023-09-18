@@ -8,7 +8,6 @@ const Scrolln = ({ children, width = "fit-content" }) => {
     const mainControls = useAnimation()
     useEffect(() => {
         if (isInView) {
-            // fire animation
             mainControls.start("visible")
         }
     }, [isInView])
@@ -19,7 +18,6 @@ const Scrolln = ({ children, width = "fit-content" }) => {
                 visible: { opacity: 1, y: 0 }
             }}
                 initial="hidden"
-                // animate="visible"
                 animate={mainControls}
                 transition={{ duration: 0.5, delay: 0.25 }}
             >

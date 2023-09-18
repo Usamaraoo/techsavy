@@ -8,7 +8,7 @@ const page = () => {
             <section className=' zinc-bg text-white'>
                 <Scrolln>
                     <div className='container mx-auto px-36 pb-14 pt-4'>
-                        <h1 className='text-[10px] color'>home <span className="mx-2">//</span> <span className='yellow-text font-bold'>about</span>  </h1>
+                        <h1 className='text-[10px] color'>home <span className="mx-2">{`//`}</span> <span className='yellow-text font-bold'>about</span>  </h1>
                         <div className='text-5xl pt-8'>
                             <h1 className=''>
                                 Reinventing </h1>

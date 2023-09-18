@@ -28,7 +28,7 @@ const Navbar = () => {
 
             {/* sidebar */}
             <div className={` side-bar fixed lg:w-3/12 w-6/12  transition-all duration-1000   ${open ? 'translate-x-0 ' : '  translate-x-[30rem]'} bg-white zinc-text top-0 bottom-0 right-0  px-4 sm:px-10 z-20`}>
-                <AiOutlineClose onClick={() => setOpen(!open)} className='my-6 cursor-pointer' />
+                <AiOutlineClose onClick={() => setOpen(!open)} className='my-6 cursor-pointer ' />
 
                 <div className='text-xl flex mt-24 flex-col gap-6'>
                     <Link onClick={() => setOpen(!open)} href={'/'} className={` nav-link  `}>Home</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
 
                     <div>
                         <Link href={'/contact-us'} className='nav-link '>Contact Us</Link>
-                        <div className='flex justify-start gap-4 mt-4 ml-6'>
+                        <div className='flex justify-start gap-4 mt-4 '>
                             <Link href='/'> <RiLinkedinFill size={16} /> </Link>
                             <Link href='/'> <BsInstagram size={16} /> </Link>
                             <Link href='/'> <RiTwitterXFill size={16} /> </Link>
