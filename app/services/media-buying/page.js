@@ -2,17 +2,18 @@ import YellowDot from '@/components/YellowDot'
 import Image from 'next/image'
 import Scrolln from '@/components/animation/Scrolln'
 import { BiRightArrowAlt } from 'react-icons/bi'
+import Link from 'next/link';
 
-const stategy = () => {
+const mediabuying = () => {
   return (
     <>
       <section className=' zinc-bg text-white  px-36'>
         <Scrolln>
           <div className='container mx-auto pb-14 pt-4'>
-            <h1 className='text-[10px] color'>home <span className="mx-2">{`//`}</span>  Our Crafts  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Crafts One</span>  </h1>
+            <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>  <Link href='/services' className='hover:underline'>Our Services</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Media Buying</span>  </h1>
             <div className='text-5xl pt-8'>
 
-              <h1 className='mt-4 font-[500]'>  Craft One<YellowDot />
+              <h1 className='mt-4 font-[500]'>  Media Buying<YellowDot />
               </h1>
 
             </div>
@@ -82,4 +83,4 @@ const stategy = () => {
   )
 }
 
-export default stategy
+export default mediabuying

@@ -20,8 +20,7 @@ const Footer = () => {
                             alt={TechSavy}
                         />
                         <div className=' text-lg items-center'>
-                            <p>Global Headquarter</p>
-                            <p className='mt-2'>100 West 33rd Street New York NY, 10001</p>
+                            <p className='mt-2'>NewYork, NY, 10001</p>
                         </div>
                     </div>
                     <div className='md:hidden py-5'>
@@ -29,9 +28,9 @@ const Footer = () => {
                     </div>
                     <div>
                         <div className='text-lg flex flex-col  gap-3 justify-between h-full '>
-                            <Link  href='/'> About</Link>
+                            <Link href='/'> About</Link>
                             <Link href='/'> Our Model</Link>
-                            <Link href='/our-crafts'> Our Crafts</Link>
+                            <Link href='/services'> Our Services</Link>
                             <Link href='/'> Techsavy commerce</Link>
                         </div>
                     </div>
@@ -45,8 +44,8 @@ const Footer = () => {
                             <Link href='/contact-us'> Contact us</Link>
                             <div className='flex justify-start items-center  md:justify-between lg:gap-3 lg:justify-start ml-1 gap-5 md:gap-3'>
                                 <Link href='/'> <RiLinkedinFill size={16} /> </Link>
-                                <Link href='/'> <BsInstagram size={13}  /> </Link>
-                                <Link href='/'> <RiTwitterXFill  size={13} /> </Link>
+                                <Link href='/'> <BsInstagram size={13} /> </Link>
+                                <Link href='/'> <RiTwitterXFill size={13} /> </Link>
                             </div>
                         </div>
                     </div>

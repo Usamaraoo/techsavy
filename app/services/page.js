@@ -9,12 +9,10 @@ const CraftsList = () => {
       <section className=' zinc-bg text-white  px-36'>
         <Scrolln>
           <div className='container mx-auto pb-14 pt-4'>
-            <h1 className='text-[10px] color'>home  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Our Crafts</span>  </h1>
+            <h1 className='text-[10px] color'>home  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Our Services</span>  </h1>
             <div className='text-5xl pt-8'>
-
-              <h1 className='mt-4 font-[500]'>  Craft Excellence<YellowDot />
+              <h1 className='mt-4 font-[500]'>  Services Excellence<YellowDot />
               </h1>
-
             </div>
             <p className='lg:w-6/12 mt-4'>
               We are the world’s largest performance marketing network, with over 3,000 experts in 68 offices in 48 markets. We offer a complete suite of crafts designed to deliver customer-centric performance marketing.

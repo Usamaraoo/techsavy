@@ -33,7 +33,7 @@ const Navbar = () => {
                 <div className='text-xl flex mt-24 flex-col gap-6'>
                     <Link onClick={() => setOpen(!open)} href={'/'} className={` nav-link  `}>Home</Link>
                     <Link onClick={() => setOpen(!open)} href={'/'} className={` nav-link  `}>Our Model</Link>
-                    <Link onClick={() => setOpen(!open)} href={'/our-crafts'} className={` nav-link  `}>Our Crafs</Link>
+                    <Link onClick={() => setOpen(!open)} href={'/services'} className={` nav-link  `}>Our Services</Link>
                     <Link onClick={() => setOpen(!open)} href={'/about-us'} className={` nav-link  `}>About Us</Link>
                     <Link onClick={() => setOpen(!open)} href={'/'} className='nav-link  transition-all duration-700 '>Careers</Link>
 
