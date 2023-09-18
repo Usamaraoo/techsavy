@@ -83,4 +83,4 @@ const seo = () => {
   )
 }
 
-export default stategy
+export default seo
