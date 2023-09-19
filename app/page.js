@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <section className='text-center section py-16'>
         <div className='container mx-auto'>
-          <Scrolln>
+          <Scrolln width='100%'>
             <h1 className='lg:text-7xl text-4xl zinc-text lg:w-8/12  font-medium mx-auto '>
               We are obsessed with Customer Flow <YellowDot />
             </h1>
@@ -26,7 +26,7 @@ export default function Home() {
       </section>
 
       <section className='zinc-bg  py-20 h-full'>
-        <Scrolln>
+        <Scrolln width='100%'>
           <div className='container gap-10 text-center lg:text-left flex-col lg:flex-row flex mx-auto  justify-center'>
             <div className='lg:w-4/12 w-full '>
               <h1 className='text-2xl md:text-3xl font-bold'>How the FLOW OS can help your business</h1>

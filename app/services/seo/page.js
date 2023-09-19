@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Scrolln from '@/components/animation/Scrolln'
 import { BiRightArrowAlt } from 'react-icons/bi'
 import Link from 'next/link';
+import GetInTouch from '@/components/GetInTouch';
 
 const seo = () => {
   return (
@@ -64,20 +65,8 @@ const seo = () => {
         </Scrolln>
 
       </section >
-      <section className='zinc-bg text-center  py-24'>
-        <Scrolln>
-          <div className='container mx-auto'>
-            <h1 className='text-4xl font-[600]'>
-              Get in touch today<YellowDot />
-            </h1>
-            <p className='text-xl w-11/12  md:w-7/12  mx-auto mt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae quas vel sint commodi repudiandae consequuntur</p>
-            <div className='flex justify-center mt-8'>
-              <button className='btn mt-4 yellow-bg text-white text-lg flex justify-center items-center gap-2 group' >Get In Touch <BiRightArrowAlt size={25} className='transition-all duration-700 group-hover:translate-x-3' /></button>
-            </div>
-          </div>
-        </Scrolln>
-      </section>
+      <GetInTouch />
+
     </>
 
   )

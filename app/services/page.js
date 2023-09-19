@@ -2,16 +2,17 @@ import CraftCard from "@/components/CraftCard"
 import YellowDot from "@/components/YellowDot"
 import Scrolln from "@/components/animation/Scrolln"
 import { craftCardsData } from "@/utils/data"
+import Link from 'next/link';
 
 const CraftsList = () => {
   return (
     <>
-      <section className=' zinc-bg text-white  px-36'>
+      <section className=' zinc-bg text-white lg:px-36 md:px-20 px-10 pb-14 pt-8'>
         <Scrolln>
           <div className='container mx-auto pb-14 pt-4'>
-            <h1 className='text-[10px] color'>home  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Our Services</span>  </h1>
+            <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Our Services</span>  </h1>
             <div className='text-5xl pt-8'>
-              <h1 className='mt-4 font-[500]'>  Services Excellence<YellowDot />
+              <h1 className='mt-4 font-[500]'>  Services Excellence  <YellowDot />
               </h1>
             </div>
             <p className='lg:w-6/12 mt-4'>
@@ -20,19 +21,17 @@ const CraftsList = () => {
           </div>
         </Scrolln>
         {/* crafts */}
-        <Scrolln>
 
-          <div className="lg:grid grid-cols-2 mt-16 mb-24 lg:gap-x-20 lg:gap-y-4">
-            {craftCardsData && craftCardsData.map((craft, index) => {
-              const { title, description } = craft
-              return (
-                <div key={index}>
-                  <CraftCard {...craft} />
-                </div>
-              )
-            })}
-          </div>
-        </Scrolln>
+        <div className="lg:grid grid-cols-2  md:grid-col-2 mt-16 mb-24 lg:gap-x-20 lg:gap-y-4">
+          {craftCardsData && craftCardsData.map((craft, index) => {
+            const { title, description } = craft
+            return (
+              <div className="mb-10 lg:mb-0 " key={index}>
+                <CraftCard {...craft} />
+              </div>
+            )
+          })}
+        </div>
 
       </section>
 

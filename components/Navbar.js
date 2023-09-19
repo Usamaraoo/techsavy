@@ -8,10 +8,11 @@ import Link from 'next/link';
 import { AiOutlineClose } from 'react-icons/ai'
 import { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi'
+
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='zinc-bg overflow-hidden py-6  '>
+        <nav className='zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  '>
             <div className=' container px-8 md:px-0 mx-auto flex justify-between items-center'>
                 <Link href='/'>
                     <Image
@@ -41,9 +42,9 @@ const Navbar = () => {
                     <div>
                         <Link href={'/contact-us'} className='nav-link '>Contact Us</Link>
                         <div className='flex justify-start gap-4 mt-4 '>
-                            <Link href='/'> <RiLinkedinFill size={16} /> </Link>
-                            <Link href='/'> <BsInstagram size={16} /> </Link>
-                            <Link href='/'> <RiTwitterXFill size={16} /> </Link>
+                            <Link href='/' className='hover:text-yellow-600'> <RiLinkedinFill size={14} /> </Link>
+                            <Link href='/' className='hover:text-yellow-600'> <BsInstagram size={14} /> </Link>
+                            <Link href='/' className='hover:text-yellow-600'> <RiTwitterXFill size={14} /> </Link>
                         </div>
                     </div>
                 </div>

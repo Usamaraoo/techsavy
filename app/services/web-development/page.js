@@ -5,16 +5,16 @@ import { BiRightArrowAlt } from 'react-icons/bi'
 import Link from 'next/link';
 import GetInTouch from '@/components/GetInTouch';
 
-const mediabuying = () => {
+const webDevelopment = () => {
   return (
     <>
       <section className=' zinc-bg text-white  px-36'>
         <Scrolln>
           <div className='container mx-auto pb-14 pt-4'>
-            <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>  <Link href='/services' className='hover:underline'>Our Services</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Media Buying</span>  </h1>
+            <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>  <Link href='/services' className='hover:underline'>Our Services</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Web Development</span>  </h1>
             <div className='text-5xl pt-8'>
 
-              <h1 className='mt-4 font-[500]'>  Media Buying<YellowDot />
+              <h1 className='mt-4 font-[500]'>  Web Development<YellowDot />
               </h1>
 
             </div>
@@ -72,4 +72,4 @@ const mediabuying = () => {
   )
 }
 
-export default mediabuying
+export default webDevelopment
