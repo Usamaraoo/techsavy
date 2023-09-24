@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 import { usePathname } from "next/navigation";
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+ const metadata = {
   title: 'TechSavy Group | Digital Solutions, Web Development, SEO &amp; Marketing',
   description: `
   Scale your online presence with TechSavy Group&#39;s top-tier web development, SEO, and
