@@ -68,11 +68,5 @@ const Page = () => {
 }
 
 
-export function generateMetadata({params}){
-  return({
-    title:'Contact Us',
-    description:"Feel free to reach out to us"
-  })
-}
 
 export default Page
