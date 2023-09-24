@@ -13,7 +13,7 @@ const Services = () => {
         <Scrolln width='100%'>
             <section data-aos="flip-left" className=' section pt-20'>
                 <div className='container mx-auto text-center'>
-                    <h1 className='text-3xl font-bold zinc-text'>Our Services <YellowDot /> </h1>
+                    <h1 className='text-2xl font-bold zinc-text'>Our Services <YellowDot /> </h1>
                     <div className='grid md:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-10 md:gap-4 py-8 lg:gap-14 mt-10 w-8/12 mx-auto'>
                         {craftCardsData && craftCardsData.map((craft, index) => {
                             const { title, link, img } = craft

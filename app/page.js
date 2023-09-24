@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="">
       <Hero />
-      <section className='text-center section py-16'>
+      <section className='text-center section py-16 px-10'>
         <div className='container mx-auto'>
           <Scrolln width='100%'>
             <h1 className='lg:text-7xl text-4xl zinc-text lg:w-8/12  font-medium mx-auto '>
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='zinc-bg  py-20 h-full'>
+      <section className='zinc-bg  py-20 h-full px-10'>
         <Scrolln width='100%'>
           <div className='container gap-10 text-center lg:text-left flex-col lg:flex-row flex mx-auto  justify-center'>
             <div className='lg:w-4/12 w-full '>
@@ -54,10 +54,10 @@ export default function Home() {
 
       <Services />
 
-      <section className='section text-zinc py-24'>
+      <section className='section text-zinc py-24 px-10'>
         <Scrolln width='100%'>
           <div className='container mx-auto text-center '>
-            <h1 className=' lg:text-4xl text-3xl font-[600] zinc-text'>Performance marketing at a global scale<YellowDot /> </h1>
+            <h1 className=' lg:text-4xl text-2xl font-[600] zinc-text'>Performance marketing at a global scale<YellowDot /> </h1>
             <div className='flex flex-col lg:flex-row justify-center mb-20 mt-24 gap-20'>
               <div >
                 <h1 className='lg:text-8xl text-6xl  font-[600] grad-text'>68</h1>

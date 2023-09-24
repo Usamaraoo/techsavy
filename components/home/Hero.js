@@ -1,16 +1,21 @@
+import NavHome from '../NavHome'
 import YellowDot from '../YellowDot'
 import ScrolIn from '../animation/Scrolln'
 
 
 export const Hero = () => {
     return (
-        <section className='zinc-bg pb-32 pt-16  '>
-            <div className='container mx-auto text-center '>
+        <section className='relative zinc-bg lg:pb-32 pb-24  hm-hero  '>
+            {/* overlay */}
+            <div className=' overlay '></div>
+            <div className=' mx-10 '>
                 <ScrolIn width={"100%"}>
-                    <h1 data-aos="fade-down" className=' home-hero-title'>TechSavy Group</h1>
-                    <p className='text-3xl font-normal pt-4'>Empowering Brands Digitally! <YellowDot /> </p>
+                    <NavHome />
+                    <div className='container mx-auto  text-center mt-10 '>
+                        <h1  className=' home-hero-title'>TechSavy Group</h1>
+                        <p className='lg:text-3xl text-sm font-normal pt-4 flex justify-center gap-2'>Empowering Brands Digitally! <div className='animate-bounce'><YellowDot /></div>  </p>
+                    </div>
                 </ScrolIn>
-
             </div>
         </section>
     )

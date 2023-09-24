@@ -28,10 +28,10 @@ const Footer = () => {
                     </div>
                     <div>
                         <div className='text-lg flex flex-col  gap-3 justify-between h-full '>
-                            <Link href='/'> About</Link>
-                            <Link href='/'> Our Model</Link>
-                            <Link href='/services'> Our Services</Link>
-                            <Link href='/'> Techsavy commerce</Link>
+                            <Link href='/' className='nav-link-footer '> About</Link>
+                            <Link href='/' className='nav-link-footer '> Our Model</Link>
+                            <Link href='/services' className='nav-link-footer '> Our Services</Link>
+                            <Link href='/' className='nav-link-footer '> Techsavy commerce</Link>
                         </div>
                     </div>
                     <div className='md:hidden py-5'>
@@ -39,13 +39,15 @@ const Footer = () => {
                     </div>
                     <div>
                         <div className=' text-lg flex  flex-col gap-3 justify-between h-full '>
-                            <Link href='/'> Insights</Link>
-                            <Link href='/about-us'> About us</Link>
+                            <Link className='nav-link-footer ' href='/'> Insights</Link>
+                            <Link className='nav-link-footer ' href='/about-us'> About us</Link>
+                  
+
                             <Link href='/contact-us'> Contact us</Link>
                             <div className='flex justify-start items-center  md:justify-between lg:gap-3 lg:justify-start ml-1 gap-5 md:gap-3'>
-                                <Link href='/'> <RiLinkedinFill size={16} /> </Link>
-                                <Link href='/'> <BsInstagram size={13} /> </Link>
-                                <Link href='/'> <RiTwitterXFill size={13} /> </Link>
+                                <Link className='nav-link-footer ' href='/'> <RiLinkedinFill size={16} /> </Link>
+                                <Link className='nav-link-footer ' href='/'> <BsInstagram size={13} /> </Link>
+                                <Link className='nav-link-footer ' href='/'> <RiTwitterXFill size={13} /> </Link>
                             </div>
                         </div>
                     </div>
