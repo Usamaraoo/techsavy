@@ -32,7 +32,7 @@ const Services = () => {
                         })}
                     </div>
                     <div className='flex justify-center'>
-                        <Link href='/services' className='btn  text-sm mt-10 yellow-bg text-white mt-6 text-sm font-medium flex justify-center items-center gap-2 group' >Our Services<BiRightArrowAlt size={24} className='text-xl transition-all duration-700 group-translate-x-3' /></Link>
+                        <Link href='/services' className='btn transition-all duration-700 group  text-sm mt-10 yellow-bg text-white mt-6 text-sm font-medium flex justify-center items-center gap-2' >Our Services<BiRightArrowAlt size={24} className='text-xl transition-all duration-700 group-hover:translate-x-3' /></Link>
                     </div>
                 </div>
             </section>
