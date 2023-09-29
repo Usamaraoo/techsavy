@@ -147,6 +147,12 @@ body {
   border-radius: 28px;
 }
 
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #012c3f;
+}
+
 @media only screen and (max-width: 768px) {
   .home-hero-title {
     font-size: 44px;
