@@ -26,22 +26,21 @@ const graphicDesigning = () => {
           </div>
         </Scrolln>
       </section>
-      <section className='section  py-1'>
+      <section className='section  md:py-14 px-10'>
         <Scrolln width='100%'>
-          <div className='container mx-auto'>
+          <div className='container mx-auto '>
             <h1 style={{ lineHeight: "75px" }} className=' text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae <YellowDot />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <YellowDot />
             </h1>
           </div>
 
         </Scrolln>
         <Scrolln width='100%'>
 
-          <div className='container mx-auto flex justify-center gap-9 items-center mt-10'>
+          <div className='container mx-auto flex flex-col md:flex-row justify-center gap-9 items-center mt-16'>
             <div className='w-6/12 flex justify-end'>
               <Image
-                src={'/assets/examImg.jpg'}
+                src={'/graphic_design.svg'}
                 height={500}
                 width={400}
                 alt='seo'
