@@ -1,0 +1,6 @@
+User-agent: nameOfBot
+
+User-agent: *
+Allow: /
+
+Sitemap: http://www.techsavygroup.com/sitemap.xml
