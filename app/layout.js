@@ -1,13 +1,10 @@
-"use client"
-
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/Footer'
-import { usePathname } from "next/navigation";
 const inter = Inter({ subsets: ['latin'] })
 
- const metadata = {
+ export const metadata = {
   title: 'TechSavy Group | Digital Solutions, Web Development, SEO &amp; Marketing',
   description: `
   Scale your online presence with TechSavy Group&#39;s top-tier web development, SEO, and
@@ -16,12 +13,11 @@ const inter = Inter({ subsets: ['latin'] })
 }
 
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        {pathname !== '/' && <Navbar />}
+        <Navbar />
         {children}
         <Footer />
       </body>
