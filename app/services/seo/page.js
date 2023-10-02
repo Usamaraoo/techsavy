@@ -41,10 +41,10 @@ const seo = () => {
           <div className='container mx-auto flex justify-center gap-9 items-center mt-10'>
             <div className='w-6/12 flex justify-end'>
               <Image
-                src={'/assets/examImg.jpg'}
+                src={'/assets/serviceImgs/Seo.svg'}
                 height={500}
                 width={400}
-                alt='seo'
+                alt='Seo services by TechSavy Group'
               />
             </div>
 

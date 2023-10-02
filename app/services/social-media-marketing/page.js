@@ -41,10 +41,10 @@ const socialMediaMakerting = () => {
           <div className='container mx-auto flex justify-center gap-9 items-center mt-10'>
             <div className='w-6/12 flex justify-end'>
               <Image
-                src={'/assets/examImg.jpg'}
+                src={'/assets/serviceImgs/Social_media.svg'}
                 height={500}
                 width={400}
-                alt='seo'
+                alt='Social Media Services by TechSavy Group'
               />
             </div>
 
