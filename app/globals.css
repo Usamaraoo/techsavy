@@ -105,6 +105,10 @@ body {
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
+.dot-title::after{
+  content: ".";
+  color: #f39c12;
+}
 
 .yellow-text {
   color: #f39c12;

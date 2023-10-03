@@ -8,7 +8,6 @@ import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import YellowDot from "@/components/YellowDot";
 const Page = () => {
   const formRef = useRef();
   const form = useForm();
@@ -63,8 +62,8 @@ const Page = () => {
               <span className="yellow-text font-bold">contact us</span>{" "}
             </h1>
             <div className="text-5xl pt-8 lg:w-8/12 w-full lg:text-left md:text-left text-center">
-              <h1 style={{ lineHeight: "55px" }}>
-                Empowering Success in the Digital Realm  <YellowDot/>
+              <h1 className="dot-title" style={{ lineHeight: "55px" }}>
+                Empowering Success in the Digital Realm  
               </h1>
             </div>
             <p className="lg:w-6/12 mt-4 lg:text-left md:text-left text-center">
@@ -95,8 +94,8 @@ const Page = () => {
                 onSubmit={handleSubmit(submitFun)}
                 noValidate
               >
-                 <h1 className="text-2xl font-bold text-center md:text-left ">
-                Contact Us <YellowDot/>
+                 <h1 className="dot-title text-2xl font-bold text-center md:text-left ">
+                Contact Us 
               </h1>
                 <div className="flex flex-col  py-2">
                   <labe className=" py-2 ml-2 text-xs text-gray-700 font-bold ">
