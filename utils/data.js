@@ -24,7 +24,7 @@ export const craftCardsData = [
         img: '/assets/service-icons/Graphic-designing.png'
 
     }, {
-        title: 'UI.UX',
+        title: 'UI/UX',
         description: `User-centric design is at the heart of our digital solutions. We create intuitive interfaces and
         seamless experiences that keep your customers coming back.`
         , link: 'services/ui-ux',

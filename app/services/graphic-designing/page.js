@@ -40,10 +40,10 @@ const graphicDesigning = () => {
           <div className='container mx-auto flex flex-col md:flex-row justify-center gap-9 items-center mt-16'>
             <div className='w-6/12 flex justify-end'>
               <Image
-                src={'/graphic_design.svg'}
+                src={'/assets/serviceImgs/Graphic_Design_1.svg'}
                 height={500}
                 width={400}
-                alt='seo'
+                alt='graphic designing services by TechSavy Group'
               />
             </div>
 
