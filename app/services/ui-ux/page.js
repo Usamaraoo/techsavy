@@ -1,74 +1,46 @@
-import Image from 'next/image'
-import Scrolln from '@/components/animation/Scrolln'
-import Link from 'next/link';
-import GetInTouch from '@/components/GetInTouch';
+import Image from "next/image";
+import Scrolln from "@/components/animation/Scrolln";
+import Link from "next/link";
+import GetInTouch from "@/components/GetInTouch";
+import { ServiceDescription } from "@/components/ServiceDescription";
 
 const uiux = () => {
   return (
     <>
-      <section className=' zinc-bg text-white  px-36'>
+      <section className=" zinc-bg text-white  px-36">
         <Scrolln>
-          <div className='container mx-auto pb-14 pt-4'>
-            <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>  <Link href='/services' className='hover:underline'>Our Services</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>UI/UX</span>  </h1>
-            <div className='text-5xl pt-8'>
-
-              <h1 className='mt-4 font-[500] dot-title'>  UI-UX
-              </h1>
-
+          <div className="container mx-auto pb-14 pt-4">
+            <h1 className="text-[10px] color">
+              <Link href="/" className="hover:underline">
+                home
+              </Link>{" "}
+              <span className="mx-2">{`//`}</span>{" "}
+              <Link href="/services" className="hover:underline">
+                Our Services
+              </Link>{" "}
+              <span className="mx-2">{`//`}</span>{" "}
+              <span className="yellow-text font-bold ">UI/UX</span>{" "}
+            </h1>
+            <div className="text-5xl pt-8">
+              <h1 className="mt-4 font-[500] dot-title"> UI/UX</h1>
             </div>
-            <p className='lg:w-6/12 mt-4'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-              numquam
+            <p className="lg:w-6/12 mt-4">
+              User-centric design is at the heart of our digital solutions. We
+              create intuitive interfaces and seamless experiences that keep
+              your customers coming back.
             </p>
           </div>
         </Scrolln>
       </section>
-      <section className='section  py-1'>
-        <Scrolln width='100%'>
-          <div className='container mx-auto'>
-            <h1 style={{ lineHeight: "75px" }} className='dot-title text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto '>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae 
-            </h1>
-          </div>
-
-        </Scrolln>
-        <Scrolln width='100%'>
-
-          <div className='container mx-auto flex justify-center gap-9 items-center mt-10'>
-            <div className='w-6/12 flex justify-end'>
-              <Image
-                src={'/assets/serviceImgs/UIUX.svg'}
-                height={500}
-                width={400}
-                alt='UI/UX services by TechSavy Group'
-
-              />
-            </div>
-
-            <div>
-              <div className='lg:w-8/12 '>
-                <p className='text-lg'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae
-                </p>
-                <p className='font-medium'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                  molestiae
-                </p>
-              </div>
-
-            </div>
-          </div>
-        </Scrolln>
-
-      </section >
+      <ServiceDescription
+        title="Designing Experiences That Put Your Users First"
+        des="User satisfaction is paramount. Our UI/UX experts create intuitive designs and seamless
+        experiences that prioritize your users&#39; needs, ensuring they return for more."
+        img={"/assets/serviceImgs/UIUX.svg"}
+      />
       <GetInTouch />
-
     </>
+  );
+};
 
-  )
-}
-
-export default uiux
+export default uiux;
