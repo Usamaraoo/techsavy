@@ -1,4 +1,3 @@
-import YellowDot from "@/components/YellowDot";
 import Image from "next/image";
 import Scrolln from "@/components/animation/Scrolln";
 import { BiRightArrowAlt } from "react-icons/bi";
@@ -23,10 +22,10 @@ const emailMarkting = () => {
               <span className="yellow-text font-bold ">Email Marketing</span>{" "}
             </h1>
             <div className="text-5xl pt-8">
-              <h1 className="mt-4 font-[500]">
+              <h1 className="mt-4 font-[500] dot-title">
                 {" "}
                 Email Marketing
-                <YellowDot />
+               
               </h1>
             </div>
             <p className="lg:w-6/12 mt-4">
@@ -42,10 +41,10 @@ const emailMarkting = () => {
           <div className="container mx-auto">
             <h1
               style={{ lineHeight: "75px" }}
-              className=" text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto "
+              className="dot-title text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto "
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia, molestiae <YellowDot />
+              mollitia, molestiae 
             </h1>
           </div>
         </Scrolln>

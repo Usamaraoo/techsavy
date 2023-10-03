@@ -1,5 +1,4 @@
 import CraftCard from "@/components/CraftCard"
-import YellowDot from "@/components/YellowDot"
 import Scrolln from "@/components/animation/Scrolln"
 import { craftCardsData } from "@/utils/data"
 import Link from 'next/link';
@@ -12,7 +11,7 @@ const CraftsList = () => {
           <div className='container mx-auto pb-14 pt-4'>
             <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>Our Services</span>  </h1>
             <div className='text-5xl pt-8'>
-              <h1 className='mt-4 font-[500]'>  Services Excellence  <YellowDot />
+              <h1 className='dot-title mt-4 font-[500]'>  Services Excellence  
               </h1>
             </div>
             <p className='lg:w-6/12 mt-4'>

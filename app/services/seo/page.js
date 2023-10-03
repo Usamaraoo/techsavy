@@ -1,7 +1,5 @@
-import YellowDot from '@/components/YellowDot'
 import Image from 'next/image'
 import Scrolln from '@/components/animation/Scrolln'
-import { BiRightArrowAlt } from 'react-icons/bi'
 import Link from 'next/link';
 import GetInTouch from '@/components/GetInTouch';
 
@@ -14,7 +12,7 @@ const seo = () => {
             <h1 className='text-[10px] color'><Link href='/' className='hover:underline'>home</Link>  <span className="mx-2">{`//`}</span>  <Link href='/services' className='hover:underline'>Our Services</Link>  <span className="mx-2">{`//`}</span>   <span className='yellow-text font-bold '>SEO</span>  </h1>
             <div className='text-5xl pt-8'>
 
-              <h1 className='mt-4 font-[500]'>  SEO<YellowDot />
+              <h1 className='mt-4 font-[500] dot-title'>  SEO
               </h1>
 
             </div>
@@ -29,9 +27,9 @@ const seo = () => {
       <section className='section  py-1'>
         <Scrolln width='100%'>
           <div className='container mx-auto'>
-            <h1 style={{ lineHeight: "75px" }} className=' text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto '>
+            <h1 style={{ lineHeight: "75px" }} className='dot-title text-center lg:text-5xl text-4xl zinc-text lg:w-8/12  font-bold mx-auto '>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-              molestiae <YellowDot />
+              molestiae 
             </h1>
           </div>
 
