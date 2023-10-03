@@ -2,6 +2,7 @@ import Image from "next/image";
 import Scrolln from "@/components/animation/Scrolln";
 import Link from "next/link";
 import GetInTouch from "@/components/GetInTouch";
+import { ServiceDescription } from "@/components/ServiceDescription";
 
 const webDevelopment = () => {
   return (
