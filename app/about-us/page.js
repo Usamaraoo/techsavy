@@ -2,6 +2,11 @@ import Scrolln from "@/components/animation/Scrolln";
 import { BiRightArrowAlt } from "react-icons/bi";
 import Link from "next/link";
 
+export const metadata = {
+  title: "About TechSavy Group",
+  description:
+    "At TechSavy Group, we are your strategic partners on the journey to achieving online excellence. We don't just provide digital solutions; we empower your success in the digital realm",
+};
 const page = () => {
   return (
     <>
@@ -54,7 +59,10 @@ const page = () => {
               results.
             </p>
             <div className="flex justify-center mt-8">
-              <Link  href='/services' className="btn mt-4 yellow-bg text-white text-lg flex justify-center items-center gap-2 group">
+              <Link
+                href="/services"
+                className="btn mt-4 yellow-bg text-white text-lg flex justify-center items-center gap-2 group"
+              >
                 Learn more
                 <BiRightArrowAlt
                   size={25}
