@@ -6,6 +6,14 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "Graphic Design || TechSavy Group",
+  description:
+    `Our creative wizards breathe life into your brand with captivating
+    visuals, logos, and custom illustrations that make a lasting
+    impact.`,
+};
+
 const graphicDesigning = () => {
   return (
     <>

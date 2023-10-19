@@ -6,6 +6,13 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "Email Marketing || TechSavy Group",
+  description:
+    `Keep your audience informed and engaged with personalized email
+    marketing strategies that convert and foster customer loyalty.`,
+};
+
 const emailMarkting = () => {
   return (
     <>

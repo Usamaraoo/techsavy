@@ -5,6 +5,13 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "Social Media Marketing || TechSavy Group",
+  description:
+    `Harness the power of social media to engage your audience and boost
+    brand visibility with strategic campaigns and content that resonate.`,
+};
+
 const socialMediaMakerting = () => {
   return (
     <>

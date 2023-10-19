@@ -5,6 +5,14 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "Web Development || TechSavy Group",
+  description:
+    `We accelerate eCommerce sales across all channels through the
+    combination of best in class advertising capabilities, innovative
+    brand building, and operational excellence.`,
+};
+
 const webDevelopment = () => {
   return (
     <>

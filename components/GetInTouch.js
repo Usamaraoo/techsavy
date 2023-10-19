@@ -19,7 +19,7 @@ const GetInTouch = () => {
           </p>
           <div className="flex justify-center mt-8">
             <Link
-              href="/"
+              href="/contact-us"
               className="btn mt-4 yellow-bg text-white text-lg flex justify-center items-center gap-2 group"
             >
               Get In Touch{" "}

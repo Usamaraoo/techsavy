@@ -5,6 +5,13 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "UI/UX || TechSavy Group",
+  description:
+    `User-centric design is at the heart of our digital solutions. We
+    create intuitive interfaces and seamless experiences that keep
+    your customers coming back.`,
+};
 const uiux = () => {
   return (
     <>
