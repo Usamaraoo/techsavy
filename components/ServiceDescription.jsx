@@ -8,8 +8,9 @@ export const ServiceDescription = ({title,des,img}) => {
       <Scrolln width="100%">
         <div className="container mx-auto">
           <h1
+      
           // style={{lineHeight: window.innerWidth > 800? '64px':"44px"}}
-            className="dot-title text-center lg:text-5xl text-3xl zinc-text lg:w-8/12  font-bold mx-auto  tracking-wider "
+            className="dot-title s-title  text-center lg:text-5xl text-3xl zinc-text lg:w-8/12  font-bold mx-auto  tracking-wider "
           >
             {title}
           </h1>

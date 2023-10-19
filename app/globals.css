@@ -157,6 +157,16 @@ body {
   box-shadow: 0 0 0 1px #012c3f;
 }
 
+.s-title{
+  line-height: 65px !important;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .s-title{
+    line-height: normal !important;
+  }
+}
 @media only screen and (max-width: 768px) {
   .home-hero-title {
     font-size: 44px;

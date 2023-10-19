@@ -5,6 +5,13 @@ import GetInTouch from "@/components/GetInTouch";
 import { ServiceDescription } from "@/components/ServiceDescription";
 import { HeroSection } from "@/components/HeroSection";
 
+export const metadata = {
+  title: "Media Buying || TechSavy Group",
+  description:
+    `Gain instant visibility where it matters most. We manage PPC
+    campaigns, ensuring you reach your target audience effectively.`,
+};
+
 const mediabuying = () => {
   return (
     <>

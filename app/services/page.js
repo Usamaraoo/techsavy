@@ -3,6 +3,12 @@ import Scrolln from "@/components/animation/Scrolln"
 import { craftCardsData } from "@/utils/data"
 import Link from 'next/link';
 
+export const metadata = {
+  title: "Services || TechSavy Group",
+  description:
+    "We are the world’s largest performance marketing network, with over 3,000 experts in 68 offices in 48 markets. We offer a complete suite of crafts designed to deliver customer-centric performance marketing.",
+};
+
 const CraftsList = () => {
   return (
     <>
