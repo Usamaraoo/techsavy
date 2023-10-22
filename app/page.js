@@ -5,6 +5,7 @@ import Services from "@/components/home/Services";
 import { BiRightArrowAlt } from "react-icons/bi";
 import Scrolln from "../components/animation/Scrolln";
 import GigitCount from "@/components/animation/GigitCount";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -41,36 +42,30 @@ export default function Home() {
           <div className="container gap-10 text-center lg:text-left flex-col lg:flex-row flex mx-auto  justify-center">
             <div className="lg:w-4/12 w-full ">
               <h1 className="text-2xl md:text-3xl font-bold">
-                How the FLOW OS can help your business
+                Vission
               </h1>
               <p className="mt-6 leading-8 ">
-                {" "}
-                Reorganizing performance marketing to focus on Customer Flow
-                unlocks a wealth of opportunities to drive real business
-                results.
+             {` At TechSavy Group, our vision is to reshape the digital future, one success story at a time. We aspire to become the premier global agency, dedicated to client success and a forward-thinking approach that adapts to trends. We see a world where businesses achieve full potential in the digital realm, with TechSavy Group as the key to making that vision real`}
               </p>
 
               <div className="flex justify-center lg:justify-start">
-                <button className="btn text-sm mt-10 yellow-bg text-white text-lg flex justify-center items-center gap-2 group">
+                <Link href='/about-us' className="btn text-sm mt-10 yellow-bg text-white text-lg flex justify-center items-center gap-2 group">
                   Find out more{" "}
                   <BiRightArrowAlt
                     size={22}
                     className="transition-all duration-700 group-hover:translate-x-3"
                   />
-                </button>
+                </Link>
               </div>
             </div>
-            <div className="flex flex-col justify-around gap-0">
-              <p>Imporve sales +</p>
-              <p>Drive lead generation </p>
-              <p>Engage in the mid-funnel +</p>
-              <p>Bridge brand and performance efforts +</p>
-            </div>
-            <div className="flex flex-col justify-around gap-0">
-              <p>Increase ROI or ROAS +</p>
-              <p>Grow eCommerce + </p>
-              <p>Lower cost per acquisition +</p>
-              <p>Lower cost per acquisition +</p>
+            <div className="lg:w-4/12 w-full ">
+              <h1 className="text-2xl md:text-3xl font-bold">
+              Mission
+              </h1>
+              <p className="mt-6 leading-8 ">
+             {` TechSavy Group, our mission is to ignite our clients' digital success. We provide innovative solutions and expert guidance, enabling businesses to thrive in the evolving digital landscape. With passion, creativity, and tech expertise, we're the trusted partner turning visions into reality. Our commitment drives us to exceed expectations.`}
+              </p>
+
             </div>
           </div>
         </Scrolln>

@@ -11,7 +11,7 @@ export const Hero = () => {
                 <ScrolIn width={"100%"}>
                     <NavHome />
                     <div className='container mx-auto  text-center mt-10 '>
-                        <h1  className=' home-hero-title'>TechSavy Group</h1>
+                        <h1  className=' home-hero-title'>TECHSAVY GROUP</h1>
                         <p className='lg:text-3xl text-sm font-normal pt-4 flex justify-center gap-2'>Empowering Brands Digitally! <span className='animate-bounce dot-title'></span>  </p>
                     </div>
                 </ScrolIn>
