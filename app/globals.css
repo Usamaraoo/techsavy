@@ -124,7 +124,7 @@ body {
 }
 
 .hm-hero {
-  background-image: url(../public/gif.gif);
+  /* background-image: url(../public/gif.gif); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
