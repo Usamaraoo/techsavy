@@ -9,7 +9,8 @@ import Scrolln from './animation/Scrolln';
 const Footer = () => {
     return (
         <footer className='zinc-bg py-10 px-10 md:px-32'>
-            <Scrolln width='100%'>
+            <div width='100%'>
+            {/* <Scrolln width='100%'> */}
 
                 <div className='container mx-auto flex flex-col md:flex-row justify-between md:gap-10 gap-0'>
                     <div className='flex flex-col  justify-between h-full gap-7'>
@@ -61,7 +62,7 @@ const Footer = () => {
                     <p className='mx-6 divider'>|</p>
                     <Link href='/' > Careers</Link>
                 </div>
-            </Scrolln>
+            </div>
         </footer>
     )
 }

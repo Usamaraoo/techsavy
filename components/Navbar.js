@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       {pathname !== "/" && (
-        <nav className="zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  ">
+        <nav className="zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0 z-10  ">
           <div className=" container px-8 md:px-0 mx-auto flex justify-between items-center">
             <Link href="/">
               <Image src={logo} width={120} height={40} alt={TechSavy} />

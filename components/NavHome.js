@@ -13,7 +13,7 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 const NavHome = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='nav   zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  '>
+        <nav className='nav relative z-40  zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  '>
             <div className=' container  md:px-0 mx-auto flex justify-between items-center'>
                 <Link href='/'>
                     <Image

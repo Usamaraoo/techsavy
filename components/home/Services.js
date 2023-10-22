@@ -9,7 +9,8 @@ import { craftCardsData } from '@/utils/data'
 
 const Services = () => {
     return (
-        <Scrolln width='100%'>
+        <div width='100%'>
+        {/* <Scrolln width='100%'> */}
             <section data-aos="flip-left" className=' section pt-20'>
                 <div className='container mx-auto text-center'>
                     <h1 className='text-2xl font-bold zinc-text dot-title'>Our Services  </h1>
@@ -35,7 +36,8 @@ const Services = () => {
                     </div>
                 </div>
             </section>
-        </Scrolln>
+        {/* </Scrolln> */}
+        </div>
 
     )
 }
