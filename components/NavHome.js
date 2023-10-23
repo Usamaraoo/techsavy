@@ -13,8 +13,10 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 const NavHome = () => {
     const [open, setOpen] = useState(false)
     return (
-        <nav className='nav relative z-40  zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  '>
-            <div className=' container  md:px-0 mx-auto flex justify-between items-center'>
+        <>
+          
+        <nav className='nav relative  z-40  zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0  '>
+            <div style={{zIndex:2}} className=' container  md:px-0 mx-auto flex justify-between items-center'>
                 <Link href='/'>
                     <Image
                         src={logo}
@@ -29,7 +31,7 @@ const NavHome = () => {
             </div>
 
             {/* sidebar */}
-            <div className={` side-bar fixed lg:w-3/12 w-6/12  transition-all duration-1000   ${open ? 'translate-x-0 ' : '  translate-x-[30rem]'} bg-white zinc-text top-0 bottom-0 right-0  px-4 sm:px-10 z-20`}>
+            <div className={` side-bar fixed lg:w-3/12 w-6/12  transition-all duration-1000    ${open ? 'translate-x-0 ' : '  translate-x-[30rem]'} bg-white zinc-text top-0 bottom-0 right-0  px-4 sm:px-10 `}>
                 <AiOutlineClose onClick={() => setOpen(!open)} className='my-6 cursor-pointer ' />
 
                 <div className='text-xl flex mt-24 flex-col gap-6'>
@@ -60,8 +62,10 @@ const NavHome = () => {
                     alt={TechSavy} />
             </div>
             {/* sidebar overlay */}
-            {open && <div onClick={() => setOpen(false)} className=' absolute top-0 bottom-0 left-0 right-0  z-10'></div>}
         </nav>
+            {open && <div style={{zIndex:25}} onClick={() => setOpen(false)} className='fixed top-0 bottom-0 left-0 right-0  '></div>}
+        
+        </>
     )
 }
 

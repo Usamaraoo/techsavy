@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       {pathname !== "/" && (
-        <nav className="zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0 z-10  ">
+        <nav className="zinc-bg overflow-hidden py-6 lg:px-20 md:px-20 px-0   ">
           <div className=" container px-8 md:px-0 mx-auto flex justify-between items-center">
             <Link href="/">
               <Image src={logo} width={120} height={40} alt={TechSavy} />
@@ -33,9 +33,9 @@ const Navbar = () => {
 
           {/* sidebar */}
           <div
-            className={` side-bar fixed lg:w-3/12 w-6/12  transition-all duration-1000   ${
+            className={`  z-50 side-bar fixed lg:w-3/12 w-6/12  transition-all duration-1000   ${
               open ? "translate-x-0 " : "  translate-x-[30rem]"
-            } bg-white zinc-text top-0 bottom-0 right-0  px-4 sm:px-10 z-20`}
+            } bg-white zinc-text top-0 bottom-0 right-0  px-4 sm:px-10 `}
           >
             <AiOutlineClose
               onClick={() => setOpen(!open)}
